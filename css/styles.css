@@ -1,0 +1,112 @@
+@media screen and (max-width:400px){
+
+body #error-text{
+  padding-left:20px;
+}
+
+body .notify-btn{
+  width:300px;
+  margin-top: 10px;
+}
+
+div .dash-img{
+  max-width:80%;
+}
+
+}
+
+
+
+body{
+  text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+
+
+h1{
+  color:hsl(0, 0%, 59%);
+  font-size:32px;
+}
+
+
+.logo{
+  margin-top:50px;
+  margin-bottom:30px;
+}
+
+.img-container{
+  margin-top:50px;
+  text-align: center;
+}
+
+.dash-img{
+  max-width: 60%;
+}
+
+.footer-icon{
+  font-size: 28px;
+  color:hsl(223, 87%, 63%);
+  padding:8px;
+}
+
+.footer-icon:hover{
+  color: #fff;
+}
+
+.footer-div{
+  display: inline-block;
+  background-color: #fff;
+  padding:10px;
+}
+
+.footer-div .footer-icon:hover{
+  background-color: hsl(223, 87%, 63%);
+  border-radius: 50%;
+}
+
+.em-text{
+  color:#000;
+  font-weight:bold;
+}
+
+.notify-btn{
+  background-color: hsl(223, 87%, 63%);
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  width: 130px;
+  height: 40px;
+}
+
+.notify-input{
+  border-radius: 15px;
+  border: hsl(0, 0%, 59%) solid 1px;
+  height: 40px;
+  width: 300px;
+  padding-left:20px;
+
+}
+
+.subscribe-text{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.notify-btn:hover{
+  background-color: hsl(223, 87%, 63%, 0.7);
+  border-radius: 15px;
+  color: #fff;
+}
+
+.error-input{
+  border-color:hsl(354, 100%, 66%);
+}
+
+#error-text{
+  color:hsl(354, 100%, 66%);
+  font-size: 12px;
+  text-align: left;
+  padding-left: 425px;
+}
